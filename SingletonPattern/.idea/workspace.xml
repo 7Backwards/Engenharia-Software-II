@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IdeaProjects:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1a8e5ed-583d-4e64-ac74-d477fa4b2058" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y4zoweTK4qjVuI1fjpsXGdycnx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1a8e5ed-583d-4e64-ac74-d477fa4b2058" name="Default Changelist" comment="" />
+      <created>1582216832748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582216832748</updated>
+      <workItem from="1582216835205" duration="3505000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1582219033661">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828@0.23.1440.828" timestamp="1582219033661" />
+    <state x="221" y="23" width="1024" height="828" key="SettingsEditor" timestamp="1582217784610">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="221" y="23" width="1024" height="828" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1582217784610" />
+    <state x="397" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1582216838160">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="397" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1582216838160" />
+    <state x="97" y="60" key="new project wizard" timestamp="1582220075257">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="97" y="60" key="new project wizard/0.23.1440.828@0.23.1440.828" timestamp="1582220075257" />
+  </component>
+</project>

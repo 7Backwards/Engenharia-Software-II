@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FactoryPattern:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dec79240-a1e1-4934-b7d5-3e1c4d4bc76d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y7lcsbSLQXjR4sLKsidzmDJu4O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dec79240-a1e1-4934-b7d5-3e1c4d4bc76d" name="Default Changelist" comment="" />
+      <created>1582301595257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582301595257</updated>
+      <workItem from="1582301596433" duration="1816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1582302070324">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="533" y="153" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828@0.23.1440.828" timestamp="1582302070324" />
+    <state x="208" y="23" width="1024" height="828" key="SettingsEditor" timestamp="1582303097913">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="208" y="23" width="1024" height="828" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1582303097913" />
+    <state x="385" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1582302994490">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="385" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1582302994490" />
+  </component>
+</project>
