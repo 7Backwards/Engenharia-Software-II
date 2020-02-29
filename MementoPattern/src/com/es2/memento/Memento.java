@@ -8,7 +8,7 @@ public class Memento {
 
     public Memento(java.util.ArrayList<java.lang.String> studentNames) {
 
-        this.studentNames = studentNames;
+        this.studentNames = (ArrayList<String>) studentNames.clone();
     }
 
     public java.util.ArrayList<java.lang.String> getState() {
