@@ -8,6 +8,7 @@ public class Client {
     s.addStudent("Maria José");
     backup.takeSnapshot();
     s.addStudent("Manuel António");
+
     System.out.println(s.getStudentNames().size());
     backup.restoreSnapshot(1);
     System.out.println(s.getStudentNames().size());
