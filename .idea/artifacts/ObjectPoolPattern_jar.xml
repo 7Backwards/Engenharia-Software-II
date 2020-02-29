@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ObjectPoolPattern:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ObjectPoolPattern_jar</output-path>
+    <root id="archive" name="ObjectPoolPattern.jar">
+      <element id="module-output" name="ObjectPoolPattern" />
+    </root>
+  </artifact>
+</component>

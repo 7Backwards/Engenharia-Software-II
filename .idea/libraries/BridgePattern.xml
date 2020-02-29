@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BridgePattern">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BridgePattern/out/artifacts/BridgePattern_jar/BridgePattern.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

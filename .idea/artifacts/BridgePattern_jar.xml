@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BridgePattern:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BridgePattern_jar</output-path>
+    <root id="archive" name="BridgePattern.jar">
+      <element id="module-output" name="BridgePattern" />
+    </root>
+  </artifact>
+</component>
