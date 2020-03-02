@@ -23,7 +23,6 @@ public class APIMoodle implements APIServiceInterface {
             }
             for (Map.Entry<String, String> entry : content.entrySet()) {
 
-                String key = entry.getKey();
                 String value = entry.getValue();
                 contents = contents.concat(value);
             }

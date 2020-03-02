@@ -70,7 +70,7 @@ public class ReusablePool {
         throw new PoolExhaustedException();
     }
 
-    public synchronized void release(java.net.HttpURLConnection conn)
+    public synchronized void release(HttpURLConnection conn)
             throws ObjectNotFoundException {
         boolean finished = false;
 
