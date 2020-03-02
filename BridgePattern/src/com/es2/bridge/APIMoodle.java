@@ -4,13 +4,13 @@ import java.util.Map;
 
 public class APIMoodle implements APIServiceInterface{
 
-    protected java.util.LinkedHashMap<java.lang.String,java.lang.String> content;
+    protected LinkedHashMap<String,String> content;
 
     public APIMoodle() {
         content = new LinkedHashMap<>();
     }
 
-    public java.lang.String getContent(java.lang.String contentId) {
+    public String getContent(String contentId) {
 
         String contents = "";
 
@@ -43,7 +43,7 @@ public class APIMoodle implements APIServiceInterface{
         }
     }
 
-    public java.lang.String setContent(java.lang.String content) {
+    public String setContent(String content) {
         int contentID = this.content.size() + 1;
         this.content.put(String.valueOf(contentID),content);
         return String.valueOf(contentID);

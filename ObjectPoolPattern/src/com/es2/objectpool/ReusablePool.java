@@ -3,9 +3,7 @@ package com.es2.objectpool;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 public class ReusablePool {
@@ -13,15 +11,15 @@ public class ReusablePool {
     private static ReusablePool instance;
     private static HashMap<HttpURLConnection,Boolean> Pool = new HashMap<>();
     private URL url;
-    private static ArrayList<HttpClass> Pool = new ArrayList<>();
+
 
 
     private int poolSize=10;
 
 
-    public synchronized void setMaxPoolSize(int size) throws IOException {
-        this.poolSize = size;
+    public synchronized void setMaxPoolSize(int size) {
 
+        this.poolSize = size;
         Pool.clear();
         HttpURLConnection connection = null;
         for (int i = 0; i < poolSize; i++) {
@@ -35,7 +33,8 @@ public class ReusablePool {
         }
     }
 
-    public synchronized void resetPool() throws IOException {
+    public synchronized void resetPool() {
+
         Pool.clear();
         HttpURLConnection connection = null;
         for (int i = 0; i < poolSize; i++) {
@@ -52,15 +51,11 @@ public class ReusablePool {
 
 
     public synchronized java.net.HttpURLConnection acquire()
-            throws PoolExhaustedException, IOException {
+            throws PoolExhaustedException {
 
 
-        Iterator<Map.Entry<HttpURLConnection, Boolean>> itr = Pool.entrySet().iterator();
-
-        while(itr.hasNext())
-        {
-            Map.Entry<HttpURLConnection, Boolean> entry = itr.next();
-            if (entry.getValue() == false) {
+        for (Map.Entry<HttpURLConnection, Boolean> entry : Pool.entrySet()) {
+            if (!entry.getValue()) {
                 entry.setValue(true);
                 return entry.getKey();
             }
@@ -70,14 +65,11 @@ public class ReusablePool {
     }
 
     public synchronized void release(java.net.HttpURLConnection conn)
-            throws java.io.IOException,ObjectNotFoundException {
+            throws ObjectNotFoundException {
 
-        Iterator PoolIterator = Pool.entrySet().iterator();
-
-        while (PoolIterator.hasNext()) {
-            Map.Entry mapElement = (Map.Entry)PoolIterator.next();
-            if(mapElement.getKey() == conn) {
-                mapElement.setValue(false);
+        for (Map.Entry<HttpURLConnection, Boolean> httpURLConnectionBooleanEntry : Pool.entrySet()) {
+            if (((Map.Entry<HttpURLConnection, Boolean>) httpURLConnectionBooleanEntry).getKey() == conn) {
+                ((Map.Entry<HttpURLConnection, Boolean>) httpURLConnectionBooleanEntry).setValue(false);
                 return;
             }
 
@@ -86,13 +78,15 @@ public class ReusablePool {
     }
 
     public synchronized static ReusablePool getInstance() throws IOException {
+
         if(instance == null) {
+
             instance = new ReusablePool();
         }
         return instance;
     }
 
-    private ReusablePool() throws IOException {
+    private ReusablePool() {
         resetPool();
     }
     }

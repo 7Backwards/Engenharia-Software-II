@@ -1,6 +1,6 @@
 package com.es2.factorymethod;
 
-public class Computer extends java.lang.Object implements Product {
+public class Computer implements Product {
     private String brand;
 
     @Override

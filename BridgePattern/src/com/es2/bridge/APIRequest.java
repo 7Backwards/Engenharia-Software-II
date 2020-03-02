@@ -5,7 +5,7 @@ import java.util.Random;
 
 public  class APIRequest {
 
-    protected java.util.HashMap<java.lang.String, APIServiceInterface> services; //serviceID,APIServiceInterface
+    protected HashMap<String, APIServiceInterface> services; //serviceID,APIServiceInterface
 
     public APIRequest() {
         services = new HashMap<>();
@@ -19,8 +19,8 @@ public  class APIRequest {
         return serviceID;
     }
 
-    public  java.lang.String getContent(java.lang.String serviceId,
-                                       java.lang.String contentId)
+    public  String getContent(String serviceId,
+                                       String contentId)
             throws ServiceNotFoundException {
 
           if (services.get(serviceId) == null) {
@@ -36,8 +36,8 @@ public  class APIRequest {
           }
     }
 
-    public java.lang.String setContent(java.lang.String serviceId,
-                                       java.lang.String content)
+    public String setContent(String serviceId,
+                                       String content)
             throws ServiceNotFoundException {
 
         if (!services.containsKey(serviceId)) {
