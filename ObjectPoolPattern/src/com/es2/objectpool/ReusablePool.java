@@ -56,13 +56,13 @@ public class ReusablePool {
         }
     }
 
-    public synchronized java.net.HttpURLConnection acquire()
+    public synchronized HttpURLConnection acquire()
             throws PoolExhaustedException {
 
 
         for (Map.Entry<HttpURLConnection, Boolean> entry : Pool.entrySet())
-            if (entry.getValue()) {
-            } else {
+            if (!entry.getValue()) {
+
                 entry.setValue(true);
                 return entry.getKey();
             }

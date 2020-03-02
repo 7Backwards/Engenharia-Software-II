@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class BackupService {
 
     private Server server;
-    HashMap<Integer,Memento> SnapShots = new HashMap<>();
+    private HashMap<Integer, Memento> SnapShots = new HashMap<>();
 
     public BackupService(Server server) {
 

@@ -4,11 +4,7 @@ import java.util.ArrayList;
 
 public class Server {
 
-    ArrayList<String> studentNames = new ArrayList<>();
-
-    public Server() {
-
-    }
+    private ArrayList<String> studentNames = new ArrayList<>();
 
     public void addStudent(String studentName) throws ExistingStudentException {
 
@@ -28,7 +24,7 @@ public class Server {
         studentNames = state.getState();
     }
 
-    public java.util.ArrayList<String> getStudentNames() {
+    public ArrayList<String> getStudentNames() {
 
         return studentNames;
     }

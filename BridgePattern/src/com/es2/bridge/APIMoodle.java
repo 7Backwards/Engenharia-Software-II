@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class APIMoodle implements APIServiceInterface {
 
-    protected java.util.LinkedHashMap<String, String> content;
+    protected LinkedHashMap<String, String> content;
 
     public APIMoodle() {
         content = new LinkedHashMap<>();

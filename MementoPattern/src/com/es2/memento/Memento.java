@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Memento {
 
-    ArrayList<String> studentNames;
+    private ArrayList<String> studentNames;
 
     public Memento(ArrayList<String> studentNames) {
 
