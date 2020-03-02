@@ -1,6 +1,6 @@
 package com.es2.factorymethod;
 
-public class Computer extends java.lang.Object implements Product {
+public class Computer implements Product {
     private String brand;
 
     @Override
@@ -10,7 +10,7 @@ public class Computer extends java.lang.Object implements Product {
 
     @Override
     public void setBrand(String brand) {
-    this.brand = brand;
+        this.brand = brand;
     }
 
     protected Computer() {

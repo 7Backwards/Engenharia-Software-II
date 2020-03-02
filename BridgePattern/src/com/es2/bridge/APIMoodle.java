@@ -1,22 +1,23 @@
 package com.es2.bridge;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class APIMoodle implements APIServiceInterface{
+public class APIMoodle implements APIServiceInterface {
 
-    protected java.util.LinkedHashMap<java.lang.String,java.lang.String> content;
+    protected java.util.LinkedHashMap<String, String> content;
 
     public APIMoodle() {
         content = new LinkedHashMap<>();
     }
 
-    public java.lang.String getContent(java.lang.String contentId) {
+    public String getContent(String contentId) {
 
         String contents = "";
 
-        if(contentId.equals("0")) {
+        if ("0".equals(contentId)) {
 
-            if(content.size() == 0) {
+            if (content.size() == 0) {
 
                 return null;
             }
@@ -28,8 +29,7 @@ public class APIMoodle implements APIServiceInterface{
             }
 
             return contents;
-        }
-        else {
+        } else {
             for (Map.Entry<String, String> entry : content.entrySet()) {
 
                 String key = entry.getKey();
@@ -43,13 +43,13 @@ public class APIMoodle implements APIServiceInterface{
         }
     }
 
-    public java.lang.String setContent(java.lang.String content) {
+    public String setContent(String content) {
+
         int contentID = this.content.size() + 1;
-        this.content.put(String.valueOf(contentID),content);
+        this.content.put(String.valueOf(contentID), content);
         return String.valueOf(contentID);
 
     }
-
 
 
 }

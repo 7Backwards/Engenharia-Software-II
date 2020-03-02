@@ -4,8 +4,5 @@ import java.io.Serializable;
 
 public class ExistingStudentException extends Exception implements Serializable {
 
-    public ExistingStudentException() {
-
-    }
-
+    private static final long serialVersionUID = 1L;
 }

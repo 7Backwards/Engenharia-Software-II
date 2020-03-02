@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Memento {
 
-    ArrayList<String> studentNames = new ArrayList<>();
+    ArrayList<String> studentNames;
 
-    public Memento(java.util.ArrayList<java.lang.String> studentNames) {
+    public Memento(ArrayList<String> studentNames) {
 
         this.studentNames = (ArrayList<String>) studentNames.clone();
     }
 
-    public java.util.ArrayList<java.lang.String> getState() {
+    public ArrayList<String> getState() {
 
         return studentNames;
     }

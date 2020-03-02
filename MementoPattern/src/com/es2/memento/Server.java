@@ -10,7 +10,7 @@ public class Server {
 
     }
 
-    public void addStudent(java.lang.String studentName) throws ExistingStudentException {
+    public void addStudent(String studentName) throws ExistingStudentException {
 
         if (studentNames.contains(studentName))
             throw new ExistingStudentException();
@@ -28,7 +28,7 @@ public class Server {
         studentNames = state.getState();
     }
 
-    public java.util.ArrayList<java.lang.String> getStudentNames() {
+    public java.util.ArrayList<String> getStudentNames() {
 
         return studentNames;
     }

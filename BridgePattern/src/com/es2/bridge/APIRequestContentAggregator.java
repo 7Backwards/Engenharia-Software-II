@@ -6,8 +6,8 @@ public class APIRequestContentAggregator extends APIRequest {
 
     }
 
-    public java.lang.String getContent(java.lang.String serviceId,
-                                       java.lang.String contentId)
+    public String getContent(String serviceId,
+                             String contentId)
             throws ServiceNotFoundException {
 
 

@@ -2,9 +2,10 @@ package com.es2.factorymethod;
 
 public abstract class FactoryProduct {
 
-    public static Product makeProduct(java.lang.String type)
+    public static Product makeProduct(String type)
             throws UndefinedProductException {
-        switch  (type) {
+
+        switch (type) {
             case "Computer":
                 return new Computer();
             case "Software":
@@ -12,9 +13,6 @@ public abstract class FactoryProduct {
             default:
                 throw new UndefinedProductException();
         }
-
     }
 
-    public FactoryProduct() {
-    }
 }

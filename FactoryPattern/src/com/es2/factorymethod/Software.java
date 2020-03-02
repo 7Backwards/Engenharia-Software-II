@@ -1,6 +1,6 @@
 package com.es2.factorymethod;
 
-public class Software extends java.lang.Object implements Product {
+public class Software implements Product {
     private String brand;
 
     @Override

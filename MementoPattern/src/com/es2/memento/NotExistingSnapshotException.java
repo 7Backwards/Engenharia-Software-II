@@ -4,8 +4,5 @@ import java.io.Serializable;
 
 public class NotExistingSnapshotException extends Exception implements Serializable {
 
-    public NotExistingSnapshotException() {
-
-    }
-
+    private static final long serialVersionUID = 1L;
 }

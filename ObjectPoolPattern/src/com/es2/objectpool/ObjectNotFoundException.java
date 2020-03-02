@@ -3,10 +3,8 @@ package com.es2.objectpool;
 import java.io.Serializable;
 
 
-public class ObjectNotFoundException extends java.lang.Exception implements Serializable {
-    private static final long   serialVersionUID = 1L;
+public class ObjectNotFoundException extends Exception implements Serializable {
 
-    public  ObjectNotFoundException() {
-    }
+    private static final long serialVersionUID = 1L;
 }
 
