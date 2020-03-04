@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BridgePattern/BridgePattern.iml" filepath="$PROJECT_DIR$/BridgePattern/BridgePattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" filepath="$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Engenharia-Software-II.iml" filepath="$PROJECT_DIR$/Engenharia-Software-II.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/MementoPattern/MementoPattern.iml" filepath="$PROJECT_DIR$/MementoPattern/MementoPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObjectPoolPattern/ObjectPoolPattern.iml" filepath="$PROJECT_DIR$/ObjectPoolPattern/ObjectPoolPattern.iml" />
