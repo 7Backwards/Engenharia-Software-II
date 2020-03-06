@@ -1,22 +1,28 @@
 package com.es2.decorator;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class CommonWordsValidator extends Decorator {
 
+    String username = "admin";
+    String password = "admin";
+
     public CommonWordsValidator(AuthInterface auth) {
         super(auth);
     }
 
-    public void auth(java.lang.String username, java.lang.String password) throws AuthException, java.io.IOException {
+    public void auth(String username, String password) throws AuthException, IOException {
 
-
+        if (!username.equals(this.username) || !(password.equals(this.password))) throw new AuthException();
+        //getHTTPRequest(password);
+        super.auth(username,password);
     }
 
-    public java.lang.String getHTTPRequest(java.lang.String word) throws java.io.IOException {
+    public java.lang.String getHTTPRequest(String word) throws IOException {
 
         StringBuilder result = new StringBuilder();
         URL url = new URL("https://owlbot.info/api/v2/dictionary/" + word + "?format=json");

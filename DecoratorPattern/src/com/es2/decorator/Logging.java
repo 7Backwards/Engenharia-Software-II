@@ -1,6 +1,7 @@
 package com.es2.decorator;
 
 import java.io.IOException;
+import java.sql.Timestamp;
 
 public class Logging extends Decorator {
 
@@ -10,7 +11,9 @@ public class Logging extends Decorator {
     }
 
     @Override
-    public void auth(String username, String password) throws AuthException, IOException {
+    public void auth(java.lang.String username, java.lang.String password) throws AuthException, IOException {
 
+        System.out.println(new Timestamp(System.currentTimeMillis()) + ",auth()");
+        super.auth(username,password);
     }
 }
