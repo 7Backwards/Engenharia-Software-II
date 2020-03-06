@@ -11,7 +11,7 @@ public class Logging extends Decorator {
     }
 
     @Override
-    public void auth(java.lang.String username, java.lang.String password) throws AuthException, IOException {
+    public void auth(String username, String password) throws AuthException, IOException {
 
         System.out.println(new Timestamp(System.currentTimeMillis()) + ",auth()");
         super.auth(username,password);

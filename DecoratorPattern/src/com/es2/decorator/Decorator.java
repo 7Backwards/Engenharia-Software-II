@@ -12,7 +12,7 @@ public class Decorator implements AuthInterface {
     }
 
     public void auth(String username, String password) throws AuthException, IOException {
-        auth.auth(username,password);
 
+        this.auth.auth(username,password);
     }
 }

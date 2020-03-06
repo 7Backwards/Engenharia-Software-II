@@ -8,8 +8,8 @@ import java.net.URL;
 
 public class CommonWordsValidator extends Decorator {
 
-    String username = "admin";
-    String password = "admin";
+    private String username = "admin";
+    private String password = "admin";
 
     public CommonWordsValidator(AuthInterface auth) {
         super(auth);
@@ -22,7 +22,7 @@ public class CommonWordsValidator extends Decorator {
         super.auth(username,password);
     }
 
-    public java.lang.String getHTTPRequest(String word) throws IOException {
+    public String getHTTPRequest(String word) throws IOException {
 
         StringBuilder result = new StringBuilder();
         URL url = new URL("https://owlbot.info/api/v2/dictionary/" + word + "?format=json");
