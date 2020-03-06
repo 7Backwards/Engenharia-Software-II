@@ -1,6 +1,7 @@
 /FactoryPattern/out/
-     /BridgePattern/out/
-     /MementoPattern/out/
-     SingletonPattern/out/
-     /ObjectPoolPattern/out/
-     /out/
+/BridgePattern/out/
+/MementoPattern/out/
+SingletonPattern/out/
+/ObjectPoolPattern/out/
+/out/
+/.idea
