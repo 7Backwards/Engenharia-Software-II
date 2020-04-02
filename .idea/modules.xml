@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/MementoPattern/MementoPattern.iml" filepath="$PROJECT_DIR$/MementoPattern/MementoPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObjectPoolPattern/ObjectPoolPattern.iml" filepath="$PROJECT_DIR$/ObjectPoolPattern/ObjectPoolPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonPattern/SingletonPattern.iml" filepath="$PROJECT_DIR$/SingletonPattern/SingletonPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhiteBoxConditions/WhiteBoxConditions.iml" filepath="$PROJECT_DIR$/WhiteBoxConditions/WhiteBoxConditions.iml" />
     </modules>
   </component>
 </project>
