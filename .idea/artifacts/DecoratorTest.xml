@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="DecoratorTest">
-    <output-path>$PROJECT_DIR$/out/artifacts/DecoratorTest</output-path>
-    <root id="archive" name="DecoratorTest.jar">
-      <element id="module-test-output" name="DecoratorPattern" />
-    </root>
-  </artifact>
-</component>
